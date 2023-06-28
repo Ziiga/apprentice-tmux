@@ -1,7 +1,7 @@
 #!/bin/bash
 pure_black="#000000"
 black="#252525"
-blue="#8fafd7"
+blue="#458588"
 orange="#ff8700"
 red="#800000"
 light_red="#af5f5f"
@@ -50,10 +50,10 @@ set "@prefix_highlight_output_prefix" "  "
 
 set "status-right" "#[fg=$green,bg=$black,nobold,nounderscore,noitalics]#[fg=$black,bg=$green,bold] #h"
 
-set "status-left" "#[fg=$black,bg=$green,bold] #S #{prefix_highlight}#[fg=$green,bg=$visual_grey,nobold,nounderscore,noitalics]"
+set "status-left" "#[fg=$black,bg=$green,bold] #S #{prefix_highlight}#[fg=$green,bg=$black,nobold,nounderscore,noitalics]"
 
-set "window-status-format" "#[fg=$black,bg=$visual_grey] #I #W "
+set "window-status-format" "#[fg=$black,bg=$visual_grey,nobold,nounderscore,noitalics]#[fg=$black ,bg=$visual_grey,nobold] #I #W #[fg=$visual_grey,bg=$black,nobold,nounderscore,noitalics]"
 
-set "window-status-current-format" "#[fg=$visual_grey,bg=$green,nobold,nounderscore,noitalics]#[fg=$black,bg=$green,nobold] #I #W #[fg=$green,bg=$black,nobold,nounderscore,noitalics]"
+set "window-status-current-format" "#[fg=$black,bg=$blue,nobold,nounderscore,noitalics]#[fg=$black ,bg=$blue,nobold] #I #W #[fg=$blue,bg=$black,nobold,nounderscore,noitalics]"
 
 set "window-status-separator" ""
