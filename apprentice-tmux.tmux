@@ -1,5 +1,5 @@
 #!/bin/bash
-pure_black="#000000"
+pure_black="#252525"
 black="#1c1c1c"
 blue="#8fafd7"
 orange="#ff8700"
@@ -23,7 +23,6 @@ setw() {
    tmux set-window-option -gq "$option" "$value"
 }
 
-set "message-style" "fg=$white,bg=$black"
 
 set "status" "on"
 set "status-justify" "left"
@@ -50,10 +49,8 @@ set "@prefix_highlight_bg" "$green"
 set "@prefix_highlight_copy_mode_attr" "fg=$black,bg=$green"
 set "@prefix_highlight_output_prefix" "  "
 
-time_format="%R"
-date_format="%d/%m/%Y"
 
-set "status-right" "#[fg=$white,bg=$black,nounderscore,noitalics]${time_format}  ${date_format} #[fg=$green,bg=$black,nobold,nounderscore,noitalics]#[fg=$black,bg=$green,bold] #h #[fg=$orange, bg=$green]#[fg=$red,bg=$orange]"
+set "status-right" "#[#[fg=$green,bg=$black,nobold,nounderscore,noitalics]#[fg=$black,bg=$green,bold] #h"
 set "status-left" "#[fg=$black,bg=$green,bold] #S #{prefix_highlight}#[fg=$green,bg=$black,nobold,nounderscore,noitalics]"
 
 set "window-status-format" "#[fg=$black,bg=$black,nobold,nounderscore,noitalics]#[fg=$white,bg=$black] #I  #W #[fg=$black,bg=$black,nobold,nounderscore,noitalics]"
