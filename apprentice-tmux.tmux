@@ -6,10 +6,10 @@ orange="#ff8700"
 red="#800000"
 light_red="#af5f5f"
 white="#aab2bf"
-green="#87875f"
-visual_grey="#3e4452"
+green="#5f875f"
+visual_grey="#585858"
 comment_grey="#585858"
-light_green=#5f875f
+light_green="#87875f"
 
 set() {
    local option=$1
