@@ -45,11 +45,12 @@ set "display-panes-colour" "$blue"
 set "@prefix_highlight_fg" "$black"
 set "@prefix_highlight_bg" "$green"
 set "@prefix_highlight_copy_mode_attr" "fg=$black,bg=$green"
-set "@prefix_highlight_output_prefix" "  "
+set "@prefix_highlight_output_prefix" "  "
 
 
-set "status-right" "#[#[fg=$green,bg=$black,nobold,nounderscore,noitalics]#[fg=$black,bg=$green,bold] #h"
-set "status-left" "#[fg=$black,bg=$green,bold] #S #{prefix_highlight}#[fg=$green,bg=$black,nobold,nounderscore,noitalics]"
+set "status-right" "#[fg=$green,bg=$black,nobold,nounderscore,noitalics]#[fg=$black,bg=$green,bold] #h"
 
-set "window-status-format" "#[fg=$black,bg=$black,nobold,nounderscore,noitalics]#[fg=$white,bg=$black] #I  #W #[fg=$black,bg=$black,nobold,nounderscore,noitalics]"
-set "window-status-current-format" "#[fg=$black,bg=$visual_grey,nobold,nounderscore,noitalics]#[fg=$white,bg=$visual_grey,nobold] #I  #W #[fg=$visual_grey,bg=$black,nobold,nounderscore,noitalics]"
+set "status-left" "#[fg=$black,bg=$green,bold] #S #{prefix_highlight}#[fg=$green,bg=$black,nobold,nounderscore,noitalics]"
+
+set "window-status-format" "#[fg=$black,bg=$black,nobold,nounderscore,noitalics]#[fg=$white,bg=$black] #I  #W #[fg=$black,bg=$black,nobold,nounderscore,noitalics]"
+set "window-status-current-format" "#[fg=$black,bg=$visual_grey,nobold,nounderscore,noitalics]#[fg=$white,bg=$visual_grey,nobold] #I  #W #[fg=$visual_grey,bg=$black,nobold,nounderscore,noitalics]"
