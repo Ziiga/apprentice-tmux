@@ -6,7 +6,7 @@ orange="#ff8700"
 red="#800000"
 light_red="#af5f5f"
 white="#aab2bf"
-green="#5f875f"
+green="#87875F"
 visual_grey="#585858"
 comment_grey="#585858"
 light_green="#87875f"
@@ -52,5 +52,5 @@ set "status-right" "#[fg=$green,bg=$black,nobold,nounderscore,noitalics]#[fg=
 
 set "status-left" "#[fg=$black,bg=$green,bold] #S #{prefix_highlight}#[fg=$green,bg=$black,nobold,nounderscore,noitalics]"
 
-set "window-status-format" "#[fg=$black,bg=$black,nobold,nounderscore,noitalics]#[fg=$white,bg=$black] #I  #W #[fg=$black,bg=$black,nobold,nounderscore,noitalics]"
-set "window-status-current-format" "#[fg=$black,bg=$visual_grey,nobold,nounderscore,noitalics]#[fg=$white,bg=$visual_grey,nobold] #I  #W #[fg=$visual_grey,bg=$black,nobold,nounderscore,noitalics]"
+set "window-status-format" "#[fg=$black,bg=$visual_grey,nobold,nounderscore,noitalics]#[fg=$black,bg=$visual_grey] #I #W #[fg=$visual_grey,bg=$visual_grey,nobold,nounderscore,noitalics]"
+set "window-status-current-format" "#[fg=$black,bg=$green,nobold,nounderscore,noitalics]#[fg=$black,bg=$green,nobold] #I #W #[fg=$green,bg=$black,nobold,nounderscore,noitalics]"
