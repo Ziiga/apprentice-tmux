@@ -1,6 +1,6 @@
 #!/bin/bash
-pure_black="#252525"
-black="#1c1c1c"
+pure_black="#000000"
+black="#252525"
 blue="#8fafd7"
 orange="#ff8700"
 red="#800000"
@@ -35,8 +35,6 @@ set "status-attr" "none"
 set "status-left-attr" "none"
 
 set "mode-style" "fg=$black,bg=$blue"
-set "window-style" "fg=$comment_grey"
-set "window-active-style" "fg=$white"
 
 set "pane-border-style" "fg=$white,bg=$pure_black"
 set "pane-active-border-style" "fg=$light_green,bg=$pure_black"
