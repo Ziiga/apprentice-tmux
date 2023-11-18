@@ -36,8 +36,8 @@ set "status-left-attr" "none"
 
 set "mode-style" "fg=$black,bg=$blue"
 
-set "pane-border-style" "fg=$white,bg=$pure_black"
-set "pane-active-border-style" "fg=$light_green,bg=$pure_black"
+set "pane-border-style" "fg=$white,bg=$black"
+set "pane-active-border-style" "fg=$light_green,bg=$black"
 
 set "display-panes-active-colour" "$light_red"
 set "display-panes-colour" "$blue"
